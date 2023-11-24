@@ -78,7 +78,106 @@
       </nav>
     </header>
     <main>
-        
+      <section class="container-fluid py-5">
+        <h1 class="text-center">Trabajo Práctico N°5 - Punto 2</h1>
+        <div class="d-flex justify-content-center">
+          <form>
+            <div class="mb-3">
+              <label for="inputNombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNombre"
+                aria-describedby="emailHelp"
+                required
+                minlength="3"
+                maxlength="30"
+                placeholder="Ingrese su nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputEdad" class="form-label">Edad</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputEdad"
+                required
+                min="13"
+                max="93"
+                placeholder="Ingrese su edad"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputDNI" class="form-label">DNI</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputDNI"
+                required
+                min="10000000"
+                max="999999999"
+                placeholder="Ingrese su DNI"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputSexo" class="form-label">Sexo</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputSexo"
+                required
+                minlength="1"
+                maxlength="1"
+                placeholder="H para hombre / M para mujer"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputPeso" class="form-label">Peso</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputPeso"
+                required
+                min="30"
+                max="200"
+                placeholder="Ingrese su peso"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputAltura" class="form-label">Altura</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAltura"
+                required
+                minlength="1"
+                maxlength="4"
+                placeholder="Ingrese su altura"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputAnioNacimiento" class="form-label"
+                >Año de nacimiento</label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="inputAnioNacimiento"
+                required
+              />
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary m-1">Enviar</button>
+              <button type="button" class="btn btn-outline-success m-1">
+                Mostrar generación
+              </button>
+              <button type="button" class="btn btn-outline-success m-1">
+                Mayor/menor de edad
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="bg-dark-subtle py-4 text-light text-center">
       <p>&copy; Todos los derechos reservados</p>
