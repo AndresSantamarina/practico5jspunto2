@@ -160,10 +160,13 @@
                 >Año de nacimiento</label
               >
               <input
-                type="date"
+                type="number"
                 class="form-control"
                 id="inputAnioNacimiento"
                 required
+                min="1930"
+                max="2010"
+                placeholder="Ingrese su año de nacimiento"
               />
             </div>
             <div class="text-center">
@@ -171,7 +174,7 @@
               <button type="button" class="btn btn-outline-success m-1">
                 Mostrar generación
               </button>
-              <button type="button" class="btn btn-outline-success m-1">
+              <button type="button" class="btn btn-outline-warning m-1">
                 Mayor/menor de edad
               </button>
             </div>
